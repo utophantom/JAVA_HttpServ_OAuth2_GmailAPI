@@ -29,7 +29,7 @@ This line essentially makes a new file in /token directory, and saves the token 
 
 > All possible implementation: https://googleapis.dev/java/google-http-client/latest/com/google/api/client/util/store/DataStoreFactory.html
 
-So, if you need to re-authenticate, aka Log out, just delete this file (assume you use the "store token to a file" approach, aka FileDataStoreFactory) :D 
+So, if you need to re-authenticate, aka Log out, just delete this file (assume you use the "store token to a file" approach, aka ```FileDataStoreFactory```) :D 
 Learn about how OAuth2 in general works if you do not understand Credential and Token.
 
 
