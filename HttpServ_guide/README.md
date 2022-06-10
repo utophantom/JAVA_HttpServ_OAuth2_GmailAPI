@@ -7,7 +7,9 @@
 server.createContext("/test", new MyHandler());
 ```
 
-Basically, you can add more lines like this, each with different directory and a different (or same, but most of the time not really) Handler. 
+Basically, you can add more lines like this, each with different directory and a different (or same, but most of the time not really) Handler. I would recommend to make several new Handler class to handle each context.
+
+
 Also, this part:
 
 ```
