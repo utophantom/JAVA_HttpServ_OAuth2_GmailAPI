@@ -24,6 +24,7 @@ and get an access token (with a request token). The IMPORTANT PART is the token:
 This line essentially makes a new file in /token directory, and saves the token as a binary file in there. Also, only Owner can delete this file. Read more here:
 
 > File implementation: https://googleapis.dev/java/google-http-client/latest/com/google/api/client/util/store/FileDataStoreFactory.html
+
 > All possible implementation: https://googleapis.dev/java/google-http-client/latest/com/google/api/client/util/store/DataStoreFactory.html
 
 So, if you need to re-authenticate, aka Log out, just delete this file (assume you use the "store token to a file" approach, aka FileDataStoreFactory) :D 
@@ -58,6 +59,7 @@ Also, you have to be aware of the Gmail Scope, as Gmail will use those scope as 
 private static final List<String> SCOPES = Collections.singletonList(GmailScopes.GMAIL_LABELS);
 ```
 > Check this: https://developers.google.com/gmail/api/auth/scopes
+
 > And this: https://developers.google.com/resources/api-libraries/documentation/gmail/v1/java/latest/com/google/api/services/gmail/GmailScopes.html
 
 And that's about it. Good luck.
