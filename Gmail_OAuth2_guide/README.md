@@ -8,6 +8,8 @@ First, this will be a separate project from the HttpServ, so you should try to s
 Remember, there is a setup step that is fully explained on the Website link, but in general, you only need the main code, the rest can be adjusted by the way you use Java
 and how you manage your project. 
 
+
+---------------------
 Next, let's understand the code for Authentication (OAuth2 only): 
 
 ```
@@ -30,6 +32,8 @@ This line essentially makes a new file in /token directory, and saves the token 
 So, if you need to re-authenticate, aka Log out, just delete this file (assume you use the "store token to a file" approach, aka FileDataStoreFactory) :D 
 Learn about how OAuth2 in general works if you do not understand Credential and Token.
 
+
+---------------------
 And finally, we have the Gmail_API: 
 
 ```
@@ -53,6 +57,8 @@ One CRUCIAL thing to realize is to understand the structure of the data that Gma
 to get and get and get and get until you reach what you want. I learned this the hard way, by literally System.out.println to realize this structure, as well as the
 data type they return. 
 
+
+---------------------
 Also, you have to be aware of the Gmail Scope, as Gmail will use those scope as restriction/permission. It will be on this line:
 
 ```
