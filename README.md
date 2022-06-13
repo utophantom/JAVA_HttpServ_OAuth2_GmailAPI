@@ -32,4 +32,4 @@ I will explain in more detail in the "final" directory. A lot of things were nee
 ## FINAL
 Have a nice day,
 
-P/s: I am in no way near "a professional", and my code + this repo only shows my learning progress, so please forgive me if I have stated something wrong. 
+P/s: I am in no way near "a professional", and this repo is only to show my learning progress, so please forgive me if I have stated something wrong. 
