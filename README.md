@@ -5,7 +5,8 @@ In this repo, I will not upload my entire project, but instead only the main/ess
 
 ## BACKGROUND
 I had an internship and this was my first assignment: 
-> show me that you can use Google OAuth2 to authenticate, and access a user's mail box, ONLY NATIVE JAVA (no framework) -> THIS IS OUR GOAL.
+
+### "Show me that you can use Google OAuth2 to authenticate, and access a user's mail box, IN NATIVE JAVA, no framework" -> THIS IS OUR GOAL.
 
 ## HOW-TO START
 
@@ -13,7 +14,7 @@ I had an internship and this was my first assignment:
 
 > Check this -> https://stackoverflow.com/questions/3732109/simple-http-server-in-java-using-only-java-se-api
 
-Alternatively, check my HttpServ_guide directory and read README for baby-step explanation.
+Alternatively, check my HttpServ_guide directory and read README for a baby-step explanation.
 
 
 2. Gmail_API + OAuth2 
@@ -22,12 +23,12 @@ After understanding that, I checked this starter guide for Gmail_API, which **IN
 
 > Check this starter code here -> https://developers.google.com/gmail/api/quickstart/java 
 
-Alternatively, you can check my Gmail_OAuth2_guide directory for baby-step explanation. 
+Alternatively, you can check my Gmail_OAuth2_guide directory for a baby-step explanation. 
 
 
-3. And finally, the last step was to just combine everything, make a little tweak here and there, and voila, I passed my first assignement (an entrance test from my boss, actually)
+3. And finally, the last step was to just combine everything, make a little tweak here and there, and voila, I passed my first assignement (more like an entrance test, actually)
 
-I will explain in more detail in the "final" directory. A lot of things were needed to modify, and I can only cover the main things, so make sure to have a basic understanding of the two previous concepts before proceeding to my final directory.
+I will explain in more detail in the "final" directory. A few things were needed to modify, but I will only cover the main parts, so make sure to have a basic understanding of the two previous concepts before proceeding to my final directory.
 
 ## FINAL
 Have a nice day,
